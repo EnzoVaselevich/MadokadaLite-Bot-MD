@@ -29,20 +29,14 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *Senna  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━• 𝑵𝒖𝒆𝒗𝒐 𝑩𝒐𝒕 •━━━━━ ◈
  
 👋🏻 Hola! *%name*
 👥 Usuarios : %totalreg
 🟢 Tiempo activo : %muptime
 %sbot
-▢ Descarga *FGWhatsApp*
-• https://fgmods.xyz
-────────────
 %readmore
-  ≡ *LISTA DE MENUS*
-
-Ⓟ = Premium
-ⓓ = Diamantes
+  (ง'̀-'́)ง 𝐌𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
