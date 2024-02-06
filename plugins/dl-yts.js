@@ -10,7 +10,7 @@ let teks = tes.map(v => `
 *📆${mssg.aploud}:* ${v.ago}
 *👀${mssg.views}:* ${v.views.toLocaleString()}
 *🔗${mssg.link}:* ${v.url}
-`.trim()).join('\n________________________\n\n')
+`.trim()).join('\n❂✿❂✿❂✿❂✿❂❂✿❂✿❂✿❂✿❂\n\n')
 	conn.sendFile(m.chat, tes[0].image, 'yts.jpeg', teks, m)
 }
 handler.help = ['ytsearch'] 
