@@ -158,16 +158,16 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 ▢ detect 
 ▢ document
 ▢ nsfw
-└───────────── 
+└◇☆★☆★☆★☆◆ 
 ┌─⊷ *USERS*
 ▢ autolevelup
 ▢ chatbot 
-└─────────────
+└◇☆★☆★☆★☆◆
 ┌─⊷ *OWNER*
 ▢ public
 ▢ solopv
 ▢ sologp
-└─────────────
+└◇☆★☆★☆★☆◆
 *📌 Ejemplo :*
 *${usedPrefix}on* welcome
 *${usedPrefix}off* welcome
