@@ -30,13 +30,11 @@ let tags = {
 const defaultMenu = {
   before: `
 ◆ ━━━━━━━◆❃◆━━━━━━ ◆
- 
 🍁 Hola! *%name*
 🌺 Usuarios : %totalreg
 🦋 Tiempo Activa: %muptime
 %sbot
 ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
-%readmore
  (ง'̀-'́)ง 𝑴𝑰𝑺 𝑪𝑶𝑴𝑨𝑵𝑫𝑶𝑺
 
 `.trimStart(),
