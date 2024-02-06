@@ -31,7 +31,7 @@ const defaultMenu = {
   before: `
 ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
 
-🌿Hola! *%name* Bienvenido A Mi Menu.
+🌿Hola! *%name* Bienvenido.
 🦋Tengo: %totalreg De Usuarios
 🌺Tiempo Activa: %muptime
 %sbot
@@ -39,8 +39,6 @@ const defaultMenu = {
 %readmore
   (ง'̀-'́)ง 𝑳𝑰𝑺𝑻𝑨 𝑫𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶𝑺
 
-Ⓟ = Premium
-ⓓ = Diamantes
 `.trimStart(),
   header: '╭➷➷➷➷➷ %category',
   body: '┋➺ 🦋 %cmd %isdiamond %isPremium',
