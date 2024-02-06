@@ -32,10 +32,10 @@ global.fgpyp = 'https://paypal.me/fg98f'
 global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
 
 //--- Grupos WA
-global.fgcanal = 'https://whatsapp.com/channel/0029VaCeuZd6mYPQiWqxXj1F'
-global.bgp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
-global.bgp2 = 'https://chat.whatsapp.com/I7bvd8XCAOUHjgkHteqFC7'
-global.bgp3 = 'https://chat.whatsapp.com/F0JTTyZ3hsoL7OlU8TEpuH' //--GP NSFW
+global.fgcanal = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5'
+global.bgp = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5'
+global.bgp2 = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5'
+global.bgp3 = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5' //--GP NSFW
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '⌛'
