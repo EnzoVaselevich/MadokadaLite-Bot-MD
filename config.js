@@ -39,11 +39,11 @@ global.bgp2 = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5'
 global.bgp3 = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5' //--GP NSFW
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
-global.rwait = '⌛'
-global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌' 
-global.xmoji = '🔥' 
+global.rwait = '🍁'
+global.dmoji = '💧'
+global.done = '🐢'
+global.error = '⚠️' 
+global.xmoji = '🦋' 
 
 global.multiplier = 69 
 global.maxwarn = '2' // máxima advertencias
