@@ -5,27 +5,27 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
-  'main': 'ACERCA DE',
-  'bebot': 'SUB BOTS',
-  'game': 'JUEGOS',
-  'econ': 'NIVEL & ECONOMIA',
-  'rg': 'REGISTRO',
-  'sticker': 'STICKER',
-  'img': 'IMAGEN',
-  'maker': 'MAKER',
-  'prem': 'PREMIUM',
-  'group': 'GRUPO',
-  'nable': 'EN/DISABLE OPCIONES', 
-  'nime': 'ANIME',
-  'rnime': 'ANIME REACCION',
-  'dl': 'DESCARGAS',
-  'tools': 'TOOLS',
-  'fun': 'FUN',
-  'cmd': 'DATABASE',
-  'nsfw': 'NSFW +18',
-  'ansfw': 'NSFW ANIME', 
-  'owner': 'OWNER', 
-  'advanced': 'AVANZADO',
+  'main': '𝑴𝑬𝑵𝑼',
+  'bebot': '𝑺𝑬𝑹 𝑺𝑼𝑩𝑩𝑶𝑻',
+  'game': '𝑮𝑨𝑴𝑬𝑺',
+  'econ': '𝑵𝑰𝑽𝑬𝑳 𝒀 𝑬𝑪𝑶𝑵𝑶𝑴𝑰𝑨',
+  'rg': '𝑽𝑬𝑹𝑰𝑭𝑰𝑪𝑨𝑹',
+  'sticker': '𝑺𝑻𝑰𝑪𝑲𝑬𝑹𝑺',
+  'img': '𝑰𝑴𝑨𝑮𝑬𝑵',
+  'maker': '𝑴𝑨𝑲𝑬𝑹',
+  'prem': '𝑷𝑹𝑬𝑴𝑰𝑼𝑴',
+  'group': '𝑮𝑹𝑼𝑷𝑶',
+  'nable': '𝑬𝑵𝑨𝑩𝑳𝑬/𝑫𝑰𝑺𝑨𝑩𝑳𝑬', 
+  'nime': '𝑨𝑵𝑰𝑴𝑬',
+  'rnime': '𝑨𝑵𝑰𝑴𝑬-𝑹𝑬𝑨𝑪𝑪𝑰𝑶𝑵',
+  'dl': '𝑫𝑬𝑺𝑪𝑨𝑹𝑮𝑨𝑺',
+  'tools': '𝑻𝑶𝑶𝑳𝑺',
+  'fun': '𝑭𝑼𝑵',
+  'cmd': '𝑫𝑬𝑻𝑨𝑩𝑨𝑺𝑬',
+  'nsfw': '𝑵𝑺𝑭𝑾 +18',
+  'ansfw': '𝑵𝑺𝑭𝑾 𝑨𝑵𝑰𝑴𝑬', 
+  'owner': '𝑪𝑹𝑬𝑨𝑫𝑶𝑹𝑬𝑺', 
+  'advanced': '𝑨𝑽𝑨𝑵𝒁𝑨𝑫𝑶',
 }
 const defaultMenu = {
   before: `
@@ -42,7 +42,7 @@ const defaultMenu = {
 Ⓟ = Premium
 ⓓ = Diamantes
 `.trimStart(),
-  header: '┌➷➷➷➷➷ *%category*',
+  header: '╭➷➷➷➷➷ %category',
   body: '┋➺ 🦋 %cmd %isdiamond %isPremium',
   footer: '╰━━━━━━━ •♬• ━━━━━━━\n',
   after: `
