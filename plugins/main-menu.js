@@ -33,7 +33,6 @@ const defaultMenu = {
 🍁 Hola! *%name*
 🌺 Usuarios : %totalreg
 🦋 Tiempo Activa: %muptime
-%sbot
 ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
  (ง'̀-'́)ง 𝑴𝑰𝑺 𝑪𝑶𝑴𝑨𝑵𝑫𝑶𝑺
 
@@ -151,7 +150,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     ], m, rpl)*/
     conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rcanal)
 
-    m.react('📚') 
+    m.react('🦋') 
 
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error', m)
