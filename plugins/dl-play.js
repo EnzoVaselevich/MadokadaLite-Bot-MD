@@ -1,4 +1,3 @@
-
 import yts from 'yt-search'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
 	
@@ -8,15 +7,21 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 	if (!vid) throw `✳️ Vídeo/Audio no encontrado`
 	let { title, description, thumbnail, videoId, timestamp, views, ago, url } = vid
 	//const url = 'https://www.youtube.com/watch?v=' + videoId
-	m.react('🎧') 
+	m.react('🧊') 
 	let play = `
-	≡ *FG MUSIC*
-┌──────────────
-▢ 📌 *${mssg.title()}* : ${title}
-▢ 📆 *${mssg.uploud()}:* ${ago}
-▢ ⌚ *${mssg.duration}:* ${timestamp}
-▢ 👀 *${mssg.views}:* ${views}
-└──────────────`
+	–  *Y O U T U B E   P L A Y*
+	
+┌✧🥛 *ᴛɪᴛᴜʟᴏ ∙*: *${mssg.title()}* : ${title}
+│✦🍧 *ᴘᴜʙʟɪᴄᴀᴅᴏ ∙* *${mssg.uploud()}:* ${ago}
+│✦🧃 *ᴅᴜʀᴀᴄɪoɴ ∙* *${mssg.duration}:* ${timestamp}
+│✧🍚 *ᴠɪsᴛᴀs ∙* *${mssg.views}:* ${views}
+└──────────────
+
+*⊱ ──── 《.⋅ 🔥 ⋅.》 ──── ⊰*
+
+El pedido se esta enviando, Espere un momento.🍃
+
+*servicios proporcionado por FLAMI BOT-MD*`
  await conn.sendButton(m.chat, play, mssg.ig, thumbnail, [
     ['🎶 MP3', `${usedPrefix}fgmp3 ${url}`],
     ['🎥 MP4', `${usedPrefix}fgmp4 ${url}`]
