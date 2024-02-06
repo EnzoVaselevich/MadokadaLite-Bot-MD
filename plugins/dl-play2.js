@@ -16,12 +16,12 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
   
   let play = `
 	≡ *FG MUSIC*
-┌──────────────
+┌°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 ▢ 📌 *${mssg.title}:* ${vid.title}
 ▢ 📆 *${mssg.aploud}:* ${vid.ago}
 ▢ ⌚ *${mssg.duration}:* ${vid.timestamp}
 ▢ 👀 *${mssg.views}:* ${vid.views.toLocaleString()}
-└──────────────
+└°•°•°•°•°•°•°•°∞°•°•°•°•°•°•°•°
 
 _Enviando..._` 
 conn.sendFile(m.chat, vid.thumbnail, 'play', play, m, null, rcanal)
