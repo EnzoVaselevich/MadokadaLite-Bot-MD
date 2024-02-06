@@ -26,7 +26,7 @@ global.author = '@fg98'
 //--info FG
 global.botName = 'MadokadaLite-MD'
 global.fgig = 'https://www.instagram.com/fg98_ff' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
+global.fgsc = 'https://github.com/Enzito-Vase/MadokadaLite-Bot-MD' 
 global.fgyt = 'https://youtube.com/fg98f'
 global.fgpyp = 'https://paypal.me/fg98f'
 global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
