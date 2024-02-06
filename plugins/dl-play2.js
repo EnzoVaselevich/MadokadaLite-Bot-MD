@@ -26,7 +26,7 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
 
 El pedido se esta enviando, Espere un momento🍃
 
-*servicios proporcionado por Fantasma BOT-MD*` 
+*servicios proporcionado por MadokaLite-Bot-MD*` 
 conn.sendFile(m.chat, vid.thumbnail, 'play', play, m, null, rcanal)
   
   let q = isVideo ? '360p' : '128kbps' 
