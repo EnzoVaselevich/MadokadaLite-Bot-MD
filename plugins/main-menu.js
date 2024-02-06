@@ -37,7 +37,7 @@ const defaultMenu = {
 %sbot
 ▢ Descarga *FGWhatsApp*
 • https://fgmods.xyz
-────────────
+─── ❖ ── ✦ ── ❖ ───
 %readmore
   ≡ *LISTA DE MENUS*
 
@@ -46,7 +46,7 @@ const defaultMenu = {
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
-  footer: '└───────────\n',
+  footer: '└─── ❖ ── ✦ ── ❖ ───\n',
   after: `
 `,
 }
