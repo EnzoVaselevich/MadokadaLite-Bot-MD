@@ -31,7 +31,7 @@ const defaultMenu = {
   before: `
 ◆ ━━━━━━━◆❃◆━━━━━━ ◆
 🍁 Hola! *%name*
-🌺 Usuarios : %totalreg
+🐢 Usuarios : %totalreg
 🦋 Tiempo Activa: %muptime
 ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
  
