@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
   let vid = res.videos[0]
   if (!vid) throw ` *Tu Vídeo o audio no ha sido encontrado*🌬️`
   let isVideo = /vid$/.test(command)
-  m.react('🌩️') 
+  m.react('💖') 
   
   let play = `
 		–  *Y O U T U B E   P L A Y*
