@@ -44,7 +44,7 @@ const defaultMenu = {
 Ⓟ = Premium
 ⓓ = Diamantes
 `.trimStart(),
-  header: '┌─⊷ *%category*',
+  header: '┌➷➷➷➷➷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
   footer: '└─── ❖ ── ✦ ── ❖ ───\n',
   after: `
