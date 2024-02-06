@@ -29,21 +29,21 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *MadokaLite  ┃ ᴮᴼᵀ* ━━━━━ ◈
- 
-👋🏻 Hola! *%name*
-👥 Usuarios : %totalreg
-🟢 Tiempo activo : %muptime
+◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
+
+🌿Hola! *%name* Bienvenido A Mi Menu.
+🦋Tengo: %totalreg De Usuarios
+🌺Tiempo Activa: %muptime
 %sbot
-─── ❖ ── ✦ ── ❖ ───
+◆ ━━━━━━━◆❃◆━━━━━━ ◆
 %readmore
-  ≡ *LISTA DE MENUS*
+  (ง'̀-'́)ง 𝑳𝑰𝑺𝑻𝑨 𝑫𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶𝑺
 
 Ⓟ = Premium
 ⓓ = Diamantes
 `.trimStart(),
   header: '┌➷➷➷➷➷ *%category*',
-  body: '🌹 %cmd %isdiamond %isPremium',
+  body: '🦋 %cmd %isdiamond %isPremium',
   footer: '└─── ❖ ── ✦ ── ❖ ───\n',
   after: `
 `,
