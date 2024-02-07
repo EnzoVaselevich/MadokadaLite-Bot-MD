@@ -9,7 +9,7 @@ global.owner = [
 ] //Numeros De Los Creadores 
 
 global.mods = [''] 
-global.prems = ['5491168758497', '5491168758497']
+global.prems = ['573107133321', '5491168758497']
 global.APIs = { // API Prefix
   // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
