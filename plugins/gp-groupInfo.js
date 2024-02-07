@@ -7,7 +7,7 @@ let handler = async (m, { conn, participants, groupMetadata }) => {
     const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
     let text = `
 ┌──「 *${mssg.gpInfo.toUpperCase()}* 」
-▢ *♻️ID:*
+▢ *🦎ID:*
    • ${groupMetadata.id}
 ▢ *🔖${mssg.name}:* 
 • ${groupMetadata.subject}
