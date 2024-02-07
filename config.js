@@ -3,10 +3,10 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['5491168758497', 'Enzito Creator', true],
-  ['14437013473', 'Jostin Owner', true],
-  ['573107133321', '💖Diego Owner2💖', true],
-] //Numeros de owner 
+  ['5491168758497', '🦎MᴀᴅᴏᴋᴀLɪᴛᴇBᴏᴛ-MD', true],
+  ['14437013473', '🚩GᴏᴋᴜBᴏᴛ-MD', true],
+  ['573107133321', '🍓SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD', true],
+] //Numeros De Los Creadores 
 
 global.mods = [''] 
 global.prems = ['5491168758497', '5491168758497']
@@ -20,23 +20,23 @@ global.APIKeys = { // APIKey Here
   'https://api.fgmods.xyz': 'DRLg5kY7' //--- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
 }
 
-// Sticker WM
-global.packname = 'MadokadaLite┃ᴮᴼᵀ' 
-global.author = '@fg98' 
+// 𝑰𝒏𝒇𝒐 𝑺𝒕𝒊𝒄𝒌𝒆𝒓 𝑾𝒎 - 𝑺
+global.packname = '𝑴𝒂𝒅𝒐𝒌𝒂𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫' 
+global.author = '@𝙴𝙽𝚉𝙸𝚃𝙾' 
 
-//--info FG
-global.botName = 'MadokadaLite-MD'
-global.fgig = 'https://www.instagram.com/fg98_ff' 
+//--𝑰𝒏𝒇𝒐 𝑩𝒐𝒕
+global.botName = '𝑴𝒂𝒅𝒐𝒌𝒂𝑳𝒊𝒕𝒆𝑩𝒐𝒕-𝑴𝑫🦎'
+global.fgig = 'https://www.instagram.com/enzito-19' 
 global.fgsc = 'https://github.com/Enzito-Vase/MadokadaLite-Bot-MD' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
+global.fgyt = 'https://youtube.com/@Enzito-19'
+global.fgpyp = 'no tengo!'
 global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
 
-//--- Grupos WA
-global.fgcanal = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5'
-global.bgp = 'https://whatsapp.com/channel/0029VaNVKU9AInPhzHjOz91X'
-global.bgp2 = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5'
-global.bgp3 = 'https://whatsapp.com/channel/0029VaNVKU9AInPhzHjOz91X //--GP NSFW'
+//--- Grupos MADOKA
+global.fgcanal = 'https://whatsapp.com/channel/0029VaNVKU9AInPhzHjOz91X' //canal madoka
+global.bgp = 'https://chat.whatsapp.com/C5BRS176QMqKFaZlAiqFfo' //colaboracion
+global.bgp2 = 'https://chat.whatsapp.com/LVjCCRPBWJKGewIs2Htjq5' //grupo oficial
+global.bgp3 = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //canal sakura'
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '🍁'
