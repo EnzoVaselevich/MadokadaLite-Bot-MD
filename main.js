@@ -189,7 +189,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🧸 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 | By: Diego📍 ⏰️Tiempo Activa: ${uptime}`;
+  const bio = `𝑵𝒆𝒘𝒕𝒘𝒐𝑩𝒐𝒕-𝑴𝑫 🤖 | By: Enzito 📍 ⏰️Tiempo Activa: ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
